@@ -14,11 +14,11 @@
         <h1>Credits</h1>
              <table align="center" border="1px" styles="wodth:600px; line-height:40px;">
 			     <tr>
-                    <th>S.No.</th>
+                               <th>S.No.</th>
     				<th>Name</th>
     				<th>Email</th>
     				<th>Credits</th>
-                 </tr>     
+                            </tr>     
        
      <?php
         while($row = myslqi_fetch_assoc($result)) {   
